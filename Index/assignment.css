@@ -1,0 +1,43 @@
+.buttom{
+    background-color: aquamarine;
+    width: fit-content;
+    padding: 15px;
+    border: 2px;
+    border-color: black;
+}
+
+.buttom:hover{
+    background-color: blueviolet;
+}
+
+#wsname{
+    font-size: 20px;
+    text-align: left;
+    padding: 5px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.menulist{
+    display: flex;
+    text-align: right;
+    padding: 10px;
+    margin-right: 60px;
+}
+
+span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    justify-content: space-between;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}

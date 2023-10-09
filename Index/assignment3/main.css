@@ -1,0 +1,110 @@
+h1, h2{
+    background-color: bisque;
+    color: rgb(130, 103, 58);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img{
+    width: 50%;
+}
+
+#chicken_pic{
+    width: 43%;
+    border: 5px dotted rgb(170, 120, 83);
+    float: right;
+    margin-right: 25px;
+}
+
+hr{
+    height: 30px;
+    color: rgb(130, 103, 58);
+    border: none;
+}
+
+div{
+    text-align: center;
+}
+
+div a{
+    font-size: 30px;
+    font-weight: bold;
+    /* color: rgb(114, 76, 36); */
+}
+
+.left_page{
+    text-align: left;
+}
+
+#chicken_pc{
+    width: 25%;
+    border: 5px dotted rgb(170, 120, 83);
+    float: left;
+    margin-left: 25px;
+}
+
+li{
+    font-size: 17px;
+}
+
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex_container > div{
+    border: 2px solid rgb(213, 141, 96);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+a :link{
+    color: rgb(239, 185, 118);
+}
+
+a :visited{
+    color: rgb(255, 255, 255);
+}
+
+a :hover{
+    color: rgb(176, 42, 15);
+}
+
+body{
+    background-color: rgb(237, 203, 176);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 10% auto 20%;
+    grid-gap: 10px;
+}
+
+.grid-container > div{
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#header{
+    grid-column: 1 / span 3;
+}
+
+#meun{
+    grid-column: 1 / span 1;
+}
+
+#main{
+    grid-column: 2 / span 1;
+}
+
+#right{
+    grid-column: 3 / span 1;
+}
+
+#footer{
+    grid-column: 1 / span 3;
+}
